@@ -89,7 +89,7 @@ export const Navbar = ({ onNavigateToSearch, onLoginPopupToggle,onMemberLoginPop
         <nav className="navbar">
             <div className="logo">
                 <a href="https://www.philatlas.com/luzon/ncr/quezon-city/san-bartolome.html" title="San Bartolome">
-                    <img src="public/logo.png" alt="Logo image" />
+                    <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo image" />
                     <h2>Barangay San Bartolome</h2>
                 </a>
             </div>
