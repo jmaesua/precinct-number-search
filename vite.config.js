@@ -15,5 +15,5 @@ export default defineConfig({
       ]
     })
   ],
-  base: "precinct-number-search"
+  base: "/precinct-number-search/"
 });
