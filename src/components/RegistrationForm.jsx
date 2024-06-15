@@ -61,7 +61,6 @@ export const RegistrationForm = ({ onSubmit }) => {
         type="file"
         accept="image/*"
         onChange={handleSignatureChange}
-        required
       />
         {signatureUrl && <img src={signatureUrl} alt="Signature" width="100" />}
       <button type="submit">Register</button>

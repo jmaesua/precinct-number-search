@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import { LoginPopup } from "./LoginPopup";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import logo from '/logo.png'
 
 export const LandingPage = ({ onNavigateToSearch }) => {
     const [showLoginPopup, setShowLoginPopup] = useState(false);
@@ -89,7 +90,7 @@ export const Navbar = ({ onNavigateToSearch, onLoginPopupToggle,onMemberLoginPop
         <nav className="navbar">
             <div className="logo">
                 <a href="https://www.philatlas.com/luzon/ncr/quezon-city/san-bartolome.html" title="San Bartolome">
-                    <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo image" />
+                    <img src={logo} alt="Logo image" />
                     <h2>Barangay San Bartolome</h2>
                 </a>
             </div>
