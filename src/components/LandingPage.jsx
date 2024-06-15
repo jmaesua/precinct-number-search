@@ -116,7 +116,7 @@ export const HeroSection = ({ onNavigateToSearch, isAuthenticated }) => {
     return (
         <section className="hero-section">
             <h1>Maligayang Pagdating sa aming Serbisyo...</h1>
-            <p>Serbisyong <span>JONJON MENDOZA</span>...</p>
+            <p>Serbisyong <span>JONJON FRANCISCO</span>...</p>
             <p>sa <span>BARANGAY SAN BARTOLOME</span></p>
             <p>Kasama Ka!</p>
             <button className="search-button" onClick={handleSearchClick}>
