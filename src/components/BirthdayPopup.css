@@ -1,0 +1,63 @@
+.birthday-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001; /* Ensure the form is on top */
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .birthday-form label {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .birthday-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .birthday-form .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .birthday-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 45px; */
+  }
+  
+  .birthday-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Overlay to blur the background */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure the overlay is behind the form but in front of the App */
+    backdrop-filter: blur(5px); /* Blurring effect */
+  }
+  
