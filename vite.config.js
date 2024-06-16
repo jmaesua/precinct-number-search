@@ -6,9 +6,6 @@ import { viteStaticCopy } from 'vite-plugin-static-copy'
 export default defineConfig({
   plugins: [
     react(),
-    build: {
-    outDir: 'dist', // This is the default output directory
-  },
     viteStaticCopy({
       targets: [
         {
