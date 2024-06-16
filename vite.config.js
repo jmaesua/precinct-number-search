@@ -9,7 +9,7 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'public/precinct-data.json',
+          src: '/precinct-data.json',
           dest: "./dist"
         }
       ]
