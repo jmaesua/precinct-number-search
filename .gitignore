@@ -84,7 +84,6 @@ typings/
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
 # vuepress build output
@@ -101,3 +100,31 @@ typings/
 
 # TernJS port file
 .tern-port
+
+# Vite build output
+/dist/
+
+# Node.js process files
+node_modules/
+.pnp.js
+
+# IDE files
+.idea/
+.vscode/
+
+# Mac specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+
+# Miscellaneous
+*.log
+*.sqlite
