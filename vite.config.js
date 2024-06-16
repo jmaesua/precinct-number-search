@@ -6,14 +6,14 @@ import { viteStaticCopy } from 'vite-plugin-static-copy'
 export default defineConfig({
   plugins: [
     react(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: '/precinct-data.json',
-          dest: "./dist"
-        }
-      ]
-    })
+    // viteStaticCopy({
+    //   targets: [
+    //     {
+    //       src: '/precinct-data.json',
+    //       dest: "./dist"
+    //     }
+    //   ]
+    // })
   ],
   base: "/precinct-number-search/"
 });
